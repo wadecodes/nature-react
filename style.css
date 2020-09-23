@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  overflow: hidden;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  background: #d8dbe2;
+  width: 100%;
+  height: 100vh; }
+
+ul {
+  list-style: none; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 8rem;
+  align-items: center; }
+  .navbar > div {
+    padding: 0 3rem;
+    font-size: 2rem; }
+
+.navbar .menu {
+  margin-right: auto; }
+
+.navbar .lang {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.media ul {
+  position: absolute;
+  bottom: 25rem;
+  left: -14rem;
+  transform: rotate(-90deg); }
+
+.media ul li {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 0 3rem; }
+
+.text {
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+  transform: rotate(-90deg); }
+
+.text h1 {
+  font-size: 11rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: -10px;
+  margin-bottom: -2rem;
+  position: relative;
+  overflow: hidden;
+  height: 15rem;
+  width: 60rem; }
+  .text h1 .hidetext {
+    position: absolute; }
+
+.text h2 {
+  text-transform: uppercase;
+  position: absolute;
+  top: 4rem;
+  left: -4rem;
+  color: #e7de74;
+  z-index: -1;
+  font-size: 15rem;
+  font-weight: 600; }
+
+.text h3 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+  height: 8rem; }
+
+.text h3 .hidetext {
+  position: absolute; }
+
+.text p {
+  width: 20rem;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  height: 16rem; }
+
+.text p .hidetext {
+  position: absolute; }
+
+.sponsor {
+  position: absolute;
+  right: 10rem;
+  bottom: 10rem;
+  text-align: center; }
+
+.sponsor img {
+  width: 20rem;
+  transform: rotate(-90deg); }
+
+.sponsor p {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  transform: rotate(180deg); }
+
+.distortion {
+  width: 42rem;
+  height: 52rem;
+  position: absolute;
+  right: 30rem;
+  bottom: 0;
+  z-index: 1; }
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 99; }
+
+.first {
+  background: #efde74; }
+
+.second {
+  background: #efde74;
+  left: 33.33%; }
+
+.third {
+  background: #efde74;
+  left: 66.66%; }
